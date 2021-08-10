@@ -16,9 +16,7 @@ function liMaker(text){
     })
 }
 
-const saveLocal = () => {
-    localStorage.setItem('groceries', JSON.stringify(userInput.value))
-}
+
 
 closed.addEventListener("click", function() {
     localStorage.clear();
