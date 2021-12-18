@@ -38,8 +38,8 @@ body {
     border: 1px solid black;
     background-color: rgb(196, 4, 4);
     padding: 10px;
-    border-radius: 2px;
-    box-shadow: 3px 2px black;
+    border-radius: 4px;
+    box-shadow: 5px 5px 2px black;
     cursor: pointer;
     font-size: x-large;
     color: white;
@@ -52,7 +52,20 @@ body {
     font-size: 25px;
     padding: 5px;
     border: 1px solid black;
+    border-radius: 4px;
     box-shadow: 5px 5px 2px black;
+}
+
+.groceries button {
+    background-color: white;
+    color: black;
+    box-shadow: 5px 5px 2px black;
+    border: 1px solid black;
+    border-radius: 4px;
+    height: 55px;
+    width: 55px;
+    font-size: 25px;
+    margin-left: 15px;
 }
 
 .output {
