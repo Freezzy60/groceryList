@@ -1,3 +1,7 @@
+*:focus {
+    outline: none;
+}
+
 body {
     background: linear-gradient( 5deg, rgb(77, 13, 179) 0%, rgb(201, 19, 19)100%);
     margin: 0;
@@ -12,7 +16,7 @@ body {
     max-width: 600px;
     margin: 0 auto;
     min-height: 100vh;
-    background-color: white
+    background-color: white;
 }
 
 .groceries {
@@ -106,9 +110,20 @@ body {
     }
     .groceries input {
         max-width: 150px;
+        box-shadow: none;
+    }
+    .groceries button {
+        box-shadow: none;
+    }
+    .groceries i {
+        box-shadow: none;
     }
     .output ul {
         display: flex;
         flex-direction: column;
+        box-shadow: none;
+    }
+    .output li {
+        box-shadow: none;
     }
 }
