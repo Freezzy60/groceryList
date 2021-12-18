@@ -7,7 +7,7 @@ let itemsArray = localStorage.getItem('items') ?
 JSON.parse(localStorage.getItem('items')) : [];
 
 itemsArray.forEach(liMaker);
-function liMaker(text){
+function liMaker(text){{/**Funktion wenn man auf denn eintrag klickt wird er durchstrichen */}
     const li = document.createElement('li')
     li.textContent = "- " + text;
     ul.appendChild(li);
